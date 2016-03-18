@@ -32,7 +32,7 @@ void drawCharSquare(char **square, int n)
 	}
 	
 	for (int i = 0; i < n; i++){
-        delete [] square[i];
+        	delete [] square[i];
 	}
 	delete [] square;
 }
