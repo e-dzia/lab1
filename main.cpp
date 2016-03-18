@@ -16,7 +16,7 @@ char **charSquare(int n)
 {
 	char **square = new char * [n];
 	for (int i = 0; i < n; i++){
-        square[i] = new char[n];
+        	square[i] = new char[n];
 	}
 
 	for (int i = 0; i < n*n; i++){
